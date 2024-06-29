@@ -99,7 +99,7 @@ public class Calculadora {
                 DecimalFormat df = new DecimalFormat("#.##");
                 double tangente = Math.tan(conversionDialog());
 
-                JOptionPane.showMessageDialog(null, "La tangente es de "+tangente,"Tangente", JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null, "La tangente es de "+df.format(tangente),"Tangente", JOptionPane.PLAIN_MESSAGE);
             }
         });
     }
